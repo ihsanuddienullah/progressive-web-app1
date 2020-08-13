@@ -1,0 +1,102 @@
+body {
+    background-image: url(../img/home-background.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(34, 49, 52, 0); 
+    box-shadow: none; 
+}
+
+.brand-logo img {
+    width: 100px;
+}
+
+.sidenav-trigger {
+    color: rgb(8, 54, 63);
+}
+
+.waves-effect {
+    color: rgb(8, 54, 63);
+    transition: all 0.5s;
+}
+
+.waves-effect:hover {
+    font-size: larger;
+}
+
+.sidenav {
+    background-color: rgb(8, 54, 63); 
+}
+
+.sidenav li>a {
+    color: white;
+}
+
+.home-page img {
+    width: 280px;
+}
+
+.lesson-page {
+    text-align: center;
+}
+
+.lesson {
+    color: grey;
+    font-weight: bolder;
+}
+
+/* Responsive */
+@media all and (max-width: 1000px) {
+    body {
+        background-size: unset;
+    }
+
+    .sidenav-trigger {
+        color: white;
+    }
+
+    .home-page .container {
+        text-align: center;
+    } 
+
+    .lesson-page h2 {
+        font-size: 40px;
+    }
+
+    .about-page .container {
+        text-align: center;
+    }
+
+    .contact-page .box {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 414px) {
+    body {
+        background-attachment: fixed;
+    }
+    
+    .home-page h2 {
+        font-size: 30px;
+    }
+
+    .home-page img {
+        width: 200px;
+    }
+
+    .lesson-page h2 {
+        font-size: 30px;
+    }
+
+    .lesson-page .row .col {
+        width: 100%;
+    }
+
+    .about-page h2, h3 {
+        font-size: 30px;
+    }
+}
