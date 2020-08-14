@@ -1,0 +1,36 @@
+{
+    "name": "Coding 9 App",
+    "short_name": "Coding 9",
+    "description": "Coding 9 is a web service where you can learn programming online.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#E8E8E8",
+    "theme_color": "#08363f",
+    "icons": [
+        {
+            "src": "img/icon.png",
+            "sizes": "276x276",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-72.png",
+            "sizes": "237x237",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
